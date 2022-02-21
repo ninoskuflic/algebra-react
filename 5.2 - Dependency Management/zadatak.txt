@@ -1,0 +1,10 @@
+Početno stanje: npx creat-react-app
+	1.	Napraviti novu react aplikaciju
+	2.	Na npmjs.com pronaći neki paket za generiranje random stringa
+	3.	Instalirati taj paket u novokreiranu aplikaciju, osigurati da je paket naveden i pod dependencies
+	4.	Iskoristiti instalirani paket za generiranje random stringa
+
+5. Instalirati paket "moment" i prikazati trenutni datum i vrijeme u formatu "MMMM Do YYYY, h:mm:ss a"
+6. Instalirati paket "give-me-a-joke" i ispisati vic po izboru (predlažem dad joke) U KONZOLU (trenutno ne znate kako to napraviti u Reactu)
+
+VJEŽBAMO DO 20:45
