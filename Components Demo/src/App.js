@@ -1,16 +1,14 @@
 import './App.css';
 import {
-  Header,
-  Hero,
-  Footer
+  FunctionalComponent,
+  ClassComponent
 } from './Components';
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Hero/>
-      <Footer/>
+      <FunctionalComponent name="John"/>
+      <ClassComponent name="Sara"/>
     </div>
   );
 }
