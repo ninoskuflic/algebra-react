@@ -1,5 +1,7 @@
-function Avatar(props){
-    return(
+import PropTypes from 'prop-types';
+
+function Avatar(props) {
+    return (
         <img id="avatar" src={props.author.avatarUrl} alt={props.author.name} />
     );
 }
@@ -12,7 +14,7 @@ export default function Comment(props) {
     return (
         <div id="comment">
 
-            <Avatar author={props.author}/>
+            <Avatar author={props.author} />
 
             <div>
                 {props.author.name}
@@ -29,3 +31,8 @@ export default function Comment(props) {
         </div>
     );
 }
+
+Comment.propTypes = {
+    text: PropTypes.string,
+    author: PropTypes.object
+};

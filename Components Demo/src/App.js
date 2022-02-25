@@ -2,7 +2,9 @@ import './App.css';
 import {
   Comment,
   ClassComponent,
-  FunctionalComponent
+  FunctionalComponent,
+  MultiplePropsComponent,
+  MultiplePropsClassComponent
 } from './Components';
 
 const comment = {
@@ -17,14 +19,23 @@ const comment = {
 function App() {
   return (
     <div>
-      <ClassComponent name="Nino"/>
+      {/* <ClassComponent name="Nino"/>
       <FunctionalComponent name="John"/>
       
       <Comment 
       date={comment.date}
       text={comment.text}
       author={comment.author}
+      /> */}
+
+
+      <MultiplePropsComponent/>
+
+      <MultiplePropsClassComponent
+      name="Dragana"
+      age="67"
       />
+
     </div>
   );
 }
