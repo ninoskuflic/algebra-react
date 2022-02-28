@@ -17,6 +17,12 @@ export default class SendsState extends React.Component {
         count: 0
     };
 
+    // constructor(props) {
+    //     super(props)
+    //     this.state = { count: 0 }
+    // }
+
+
     /* The state changes (a +1 is added to the count) every time a changeState() 
     method is invoked - in our case, everytime a user clicks a button */
     changeState = () => {
