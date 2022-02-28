@@ -27,9 +27,9 @@ export default class MyComponent extends React.Component {
     render() {
         return (
             <div>
-                <h1>Grad: {this.state.city}</h1>
-                <h1>Država: {this.state.country}</h1>
-                <button onClick={this.changeState}>Promijeni grad</button>
+                <h1>City: {this.state.city}</h1>
+                <h1>Country: {this.state.country}</h1>
+                <button onClick={this.changeState}>Change city</button>
             </div>
         );
     }
