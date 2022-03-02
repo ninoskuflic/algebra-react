@@ -18,7 +18,6 @@ export default class Marge extends React.Component {
 
 
 class Lisa extends React.Component {
-
     render() {
         return (
             <div>
