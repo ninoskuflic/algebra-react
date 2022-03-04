@@ -16,3 +16,5 @@ export { default as ListsRefactored } from './Lists/ListsRefactored';
 export { default as Garage } from './Lists/Garage';
 export { default as Exercise } from './Lists/Exercise';
 export { default as Forms } from './Forms/Forms';
+export { default as FormsSingle } from './Forms/FormsSingle';
+export { default as AuthUser } from './Context/UserContext';

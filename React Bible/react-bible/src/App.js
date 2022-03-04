@@ -1,5 +1,3 @@
-import './App.css';
-
 import {
   // ClassComponent,
   // FunctionalComponent,
@@ -14,11 +12,13 @@ import {
   // Simpsons,
   // Store,
   // Week,
-  Lists,
-  ListsRefactored,
-  Garage,
-  Exercise,
-  Forms
+  // Lists,
+  // ListsRefactored,
+  // Garage,
+  // Exercise,
+  Forms,
+  FormsSingle,
+  AuthUser,
 } from './Components';
 
 function App() {
@@ -36,12 +36,14 @@ function App() {
       <Counter/>
       <Simpsons/>
       <Store/>
-      <Week day="Monday"/> */}
+      <Week day="Monday"/> 
       <Lists/>
       <ListsRefactored/>
       <Garage/>
-      <Exercise/>
+      <Exercise/>*/}
       <Forms/>
+      <FormsSingle/>
+      <AuthUser/>
     </div>
   );
 }
