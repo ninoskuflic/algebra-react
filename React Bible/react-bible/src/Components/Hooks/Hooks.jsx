@@ -28,7 +28,8 @@ export default function Hooks() {
     );
 }
 
-// THIS IS HOW WE WOULD DO IT BEFORE HOOKS! 
+/* THIS IS HOW WE WOULD DO IT BEFORE HOOKS! 
+
 class HooksClass extends React.Component {
     state = {
         count: 0
@@ -43,3 +44,4 @@ class HooksClass extends React.Component {
         );
     }
 }
+*/

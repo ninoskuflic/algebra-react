@@ -18,3 +18,8 @@ export { default as Exercise } from './Lists/Exercise';
 export { default as Forms } from './Forms/Forms';
 export { default as FormsSingle } from './Forms/FormsSingle';
 export { default as AuthUser } from './Context/UserContext';
+export { default as Theme } from './Context/Theme Context/Theme';
+export { default as Router } from './Router/Router';
+export { default as Invoices } from './Router/Routes/Invoices';
+export { default as Expenses } from './Router/Routes/Expenses';
+export { default as Bootstrap } from './Bootstrap/Bootstrap';

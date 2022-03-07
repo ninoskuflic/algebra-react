@@ -1,30 +1,33 @@
 import {
-  // ClassComponent,
-  // FunctionalComponent,
-  // Effects,
-  // Events,
-  // Message,
-  // Hooks,
-  // Lifecycle,
-  // Car,
-  // City,
-  // Counter,
-  // Simpsons,
-  // Store,
-  // Week,
-  // Lists,
-  // ListsRefactored,
-  // Garage,
-  // Exercise,
+/*   ClassComponent,
+  FunctionalComponent,
+  Effects,
+  Events,
+  Message,
+  Hooks,
+  Lifecycle,
+  Car,
+  City,
+  Counter,
+  Simpsons,
+  Store,
+  Week,
+  Lists,
+  ListsRefactored,
+  Garage,
+  Exercise,
   Forms,
-  FormsSingle,
+  FormsSingle, */
   AuthUser,
+  Theme,
+  Router,
+  Bootstrap
 } from './Components';
 
 function App() {
   return (
     <div>
-      {/* <ClassComponent name="Nino"/>
+{/*   <ClassComponent name="Nino"/>
       <FunctionalComponent name="Nino"/>
       <Effects/>
       <Events/>
@@ -40,10 +43,14 @@ function App() {
       <Lists/>
       <ListsRefactored/>
       <Garage/>
-      <Exercise/>*/}
+      <Exercise/>
       <Forms/>
-      <FormsSingle/>
+      <FormsSingle/> */}
+      
       <AuthUser/>
+      <Theme/>
+      <Router/>
+      <Bootstrap/>
     </div>
   );
 }
