@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,cACE,iBACF,CACA,eACE,WAAY,CACZ,aAAc,CACd,aACF","file":"main.7d0e5c84.chunk.css","sourcesContent":[".NASAImage h2 {\r\n  text-align: center;\r\n}\r\n.NASAImage img {\r\n  width: 500px;\r\n  display: block;\r\n  margin: 0 auto;\r\n}\r\n"]}
